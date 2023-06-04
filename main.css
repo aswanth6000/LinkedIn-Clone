@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+.nav a{
+    text-decoration: none;
+    color: #666767;
+}
+.nav a:hover{
+    text-decoration: none;
+    color: #181819;
+    border-bottom: 3px solid #181819;
+    transition: 0.1s;
+}
+body{
+    background-color: #f3f2ef;
+}
+.nav{
+    background-color: #fffefe;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconpng{
+    height: 40px;
+    width: 40px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search img{
+    position:absolute;
+    height: 20px;
+    width: 20px;
+    left: 120px;
+}
+#srcinp{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eff3f9;
+    border: .5px #eff3f9;
+}
+.nav a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.me{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.premium{
+    color: #cda14a;
+}
+
+/* Nav completed */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.profile{
+    background-color: #fffefe;
+    width: 274px;
+    height: 444px;
+    border-radius: 9px;
+    background-image: url('/images/bg.jpg');
+    background-size: 276px 106px;
+    background-repeat: no-repeat;
+    border: 1px solid #00000024;
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 151px;
+    left: 100px;
+    border: 2px solid white;
+    border-radius: 59px;
+}
+.nam{
+    margin-top: 172px;
+    margin-left: 12%;
+}
+.nam h2{
+    font-size: 19px;
+}
+.nam h3{
+    opacity: 50%;
+}
+.line{
+    margin-top: 25px;
+    opacity: 25%;
+}
+.conin{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin: 9px;
+}
+.conin h3{
+    opacity: 50%;
+}
+.conin2 h3{
+    opacity: 50%;
+    margin-top: 10px;
+}
+.conin2{
+    margin-left: 5px;
+}
+
+/* ---Profile section complete--- */
+
+.feed{
+    display: flex;
+    flex-direction: column;
+}
+.post{
+    background-color: #fffefe;
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid #00000024;
+    padding-top: 22px;
+    width: 600px;
+    height: 125px;
+    align-items: flex-start;
+}
+.post img{
+    height: 50px;
+    object-fit: cover;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.post input{
+    padding: 20px;
+    padding-right: 310px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 26px;
+    opacity: 30%;
+}
+.inl{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+}
+.inl a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.inl i{
+    font-size: 23px;
+}
+.line2{
+    opacity: 100%;
+    margin-top: 20px;
+}
+.feed2{
+    background-color:#fffefe ;
+    width: 600px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    border: 1px solid #00000024;
+    margin-top: 20px; 
+}
+.name{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.name .links{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 15px;
+}
+.name span{
+    opacity: 50%;
+}
+.name img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+
+}
+.name .follow{
+    font-size: larger;
+    margin-left: 250px;
+    text-decoration: none;
+}
+.desc p{
+    padding: 10px;
+}
+.posting img{
+    width: 600px;
+    height: 380px;
+}
+.cs{
+    margin-left: 242px;
+}
+.likes a{
+    text-decoration: none;
+}
+
+.line3{
+    opacity: 50%;
+    margin-top: 6px;
+}
+.likes2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.likes2 a{
+    text-decoration: none;
+}
+.likes2 a,i{
+    font-size: 18px;
+    color: #666767;
+    margin-top: 5px;
+}
+
+/* -----Feed section complete----- */
+
+.news{
+    background-color: #fffefe;
+    width: 274px;
+    height: 350px;
+    border-radius: 9px;
+}
+.lst{
+    margin-left: 30px;
+    padding: 4px;
+}
+.lst li{
+    margin-top: 25px;
+}
+.lst p{
+    opacity: 50%;
+}
