@@ -13,7 +13,7 @@
     text-decoration: none;
     color: #181819;
     border-bottom: 3px solid #181819;
-    transition: 0.1s;
+    transition: 0.2s ease-in-out;
 }
 body{
     background-color: #f3f2ef;
@@ -43,6 +43,7 @@ body{
 }
 #srcinp{
     padding: 10px;
+    padding-left: 38px;
     border-radius: 8px;
     background-color: #eff3f9;
     border: .5px #eff3f9;
@@ -149,17 +150,30 @@ body{
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 26px;
-    opacity: 30%;
+    border: 1px solid black;
+}
+.post input:focus{
+    outline: none;
 }
 .inl{
     display: flex;
     justify-content: space-around;
-    margin-top: -40px;
+    margin-top: -55px;
 }
 .inl a{
     display: flex;
     align-items: center;
     text-decoration: none;
+    height: 40px;
+    border-radius: 6px;
+    width: 109px;
+    padding-right: 3px;
+    padding-left: 8px;
+    background-color: #fffefe;
+}
+.inl a:hover{
+    background-color: #eff2f7;
+    transition: .2s ease-in-out;
 }
 .inl i{
     font-size: 23px;
